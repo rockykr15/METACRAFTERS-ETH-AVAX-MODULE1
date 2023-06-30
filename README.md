@@ -8,7 +8,7 @@ This contract is using the MIT License.
 *Solidity ^0.8.17
 
 # Contract Details
-The <b>ErrorHandling<b/> contract provides the following functions:
+The <b>SmartContract<b/>  provides the following functions:
 
 # SetValue(uint _value)
 * This function demonstrates the usage of the <b>setValue<b/> function.<br>
