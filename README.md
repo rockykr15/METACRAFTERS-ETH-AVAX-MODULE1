@@ -10,24 +10,17 @@ This contract is using the MIT License.
 # Contract Details
 The <b>ErrorHandling<b/> contract provides the following functions:
 
-# Assert(uint num)
-* This function demonstrates the usage of the <b>assert<b/> function.<br>
-* It takes a <b>num<b> parameter and checks if it is not equal to zero using the <b>assert<b> statement.<br>
+# SetValue(uint _value)
+* This function demonstrates the usage of the <b>setValue<b/> function.<br>
+* It takes a <b>value<b> parameter and checks if it is value is greater than zero <b>assert<b> statement.<br>
 * If the condition fails, it triggers an "Internal error" and aborts the execution.<br>
   
-# divide(uint _numerator, uint _denominator)
-* This function demonstrates the usage of the <b>revert<b/> function.<br>
-* It takes<b> _numerator and _denominator<b/> parameters and performs division.<br>
-* If the<b> _numerator<b/> is less than <b>_denominator<b/>, it reverts the transaction with a custom error message stating that the numerator should be greater than the denominator.<br>
-* If the condition is met, it returns the result of the division.<br>
+# SetValueWithRevert(uint _value)
+* This function demonstrates the usage of the <b>SetValueWithRevert<b/> function.<br>
+* It takes<b> value<b/> parameters and checks if it is value e equal to zero <br>
+* If the condition fails, it triggers an "Internal error" and aborts the execution.<br>
 
-# multiply(uint a)
-* This function demonstrates the usage of the <b>require<b/> function.<br>
-* It takes an <b>a<b/> parameter and performs multiplication with <b>a<b/> predefined constant b.<br>
-* It first checks if a is greater than zero using the require statement.<br>
-* If the condition fails, it reverts the transaction with a custom error message stating that the value of <b>a<b/> should not be zero.<br>
-* If the condition is met, it returns the result of the multiplication.<br>
 
 # Video Walkthrough
-### * https://www.loom.com/share/17c32aca693c48f7be882ae030e6dde4
+### * https://www.loom.com/share/ee581881724549db8329033d71059027
   
