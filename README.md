@@ -1,4 +1,4 @@
-# ETH-AVAX-MODULE1 ErrorHandling<br>Contract
+# ETH-AVAX-MODULE1 SmartrContract<br>
 This is a Solidity smart contract that demonstrates different error handling techniques using <b>assert, revert, and require <b/> functions.
 
 # License
